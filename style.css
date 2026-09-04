@@ -587,3 +587,7 @@ ul { list-style: none; }
 
 /* ===== SEO BLOG CONTENT ===== */
 .text-link{display:inline-block;margin-top:8px;color:var(--primary-blue);font-size:.88rem;font-weight:800}.text-link:hover{color:var(--accent-orange)}.article-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.article-list article{padding:30px;background:var(--bg-white);border:1px solid var(--border-color);border-radius:var(--radius);box-shadow:var(--shadow-sm);scroll-margin-top:90px}.article-list h2{font-size:1.3rem;margin:4px 0 12px}.article-list p{color:var(--text-gray);line-height:1.75}.blog-card h3{font-size:1.15rem;line-height:1.35;margin:10px 0}.blog-card{height:100%}@media(max-width:768px){.article-list{grid-template-columns:1fr}}
+
+/* Marketing-first service order */
+.services-list{columns:2}@media(max-width:768px){.services-list{columns:1}}
+@media(min-width:769px){.service-card:nth-child(1){order:4}.service-card:nth-child(2){order:1}.service-card:nth-child(3){order:2}.service-card:nth-child(4){order:3}.service-card:nth-child(5){order:5}}
